@@ -5,7 +5,7 @@
   * Execution: java ASCII
   * 
   * Tests two functions, encode() and decode(). 
-  * Turns a char into binary and then back into a char.
+  * Turns a char into binary and then back into a char, according to ASCII library.
   * 
   * % java ASCII A
   * 1000001
@@ -20,8 +20,6 @@ public class ASCII {
         printBooleanArray(bits);
         
         // convert the bits back to a string
-        // uncomment these lines once you have
-        //    implemented decode
         String s = decode(bits);
         System.out.println(s);
     }
