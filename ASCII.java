@@ -15,11 +15,11 @@
 public class ASCII {
     
     public static void main(String[] args) {
-        // convert command-line argument to bits
+        // convert command-line argument to bits (call "encode" function)
         boolean[] bits = encode(args[0]);
         printBooleanArray(bits);
         
-        // convert the bits back to a string
+        // convert the bits back to a string (call "decode" function)
         String s = decode(bits);
         System.out.println(s);
     }
@@ -111,7 +111,7 @@ public class ASCII {
                 }  
             } 
             
-            //turn the sum back into 
+            //turn the sum back into characters
             char charCharacterSum = (char) characterSum;
             backInCharacters += charCharacterSum;
         }  
