@@ -1,11 +1,13 @@
 /**********************************************
   * Name: Sophia Ciocca
+  * PennKey: sciocca
+  * Recitation: 211
   * 
   * Compilation: javac ASCII.java
   * Execution: java ASCII
   * 
   * Tests two functions, encode() and decode(). 
-  * Turns a char into binary and then back into a char, according to ASCII library.
+  * Turns a char into binary and then back into a char.
   * 
   * % java ASCII A
   * 1000001
@@ -15,11 +17,13 @@
 public class ASCII {
     
     public static void main(String[] args) {
-        // convert command-line argument to bits (call "encode" function)
+        // convert command-line argument to bits
         boolean[] bits = encode(args[0]);
         printBooleanArray(bits);
         
-        // convert the bits back to a string (call "decode" function)
+        // convert the bits back to a string
+        // uncomment these lines once you have
+        //    implemented decode
         String s = decode(bits);
         System.out.println(s);
     }
@@ -111,7 +115,7 @@ public class ASCII {
                 }  
             } 
             
-            //turn the sum back into characters
+            //turn the sum back into 
             char charCharacterSum = (char) characterSum;
             backInCharacters += charCharacterSum;
         }  

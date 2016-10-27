@@ -1,5 +1,7 @@
 /**********************************************
   * Name: Sophia Ciocca
+  * PennKey: sciocca
+  * Recitation: 211
   * 
   * Compilation: javac HideMessage.java
   * Execution: java HideMessage
